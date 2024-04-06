@@ -1,0 +1,16 @@
+.box{
+    display: flex;
+    background: #C3C49E;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.adress{
+    margin-left: 40px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+}
