@@ -1,0 +1,34 @@
+.top_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    background: #2c3434;
+    color: white;
+}
+
+.user_block {
+    display: flex;
+    margin-right: 4em;
+}
+
+.navigation{
+    margin-left: 4em;
+}
+
+.user_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.3em;
+}
+
+.user_button_image {
+    width: 1em;
+    height: 1em;
+    filter: invert(1);
+}
+
+.user_button_text {
+    font-size: small;
+}

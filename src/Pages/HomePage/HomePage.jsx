@@ -1,12 +1,18 @@
 import styles from './HomePage.module.css'
-import LeftMenu from "../../Components/LeftMenu/LeftMenu"
-import RightMenu from '../../Components/RightMenu/RightMenu'
+import BookCard from "../../Components/BookCard/BookCard"
 
-const HomePage = () => {
+const HomePage = (props) => {
     return(
-        <div className={styles.main}>
-            <LeftMenu />
-            <RightMenu />
+        <div className={props.classname}>
+            <div className={styles.CardField}>
+                { [...Array(3)].map((item, index) => <BookCard /> ) }
+            </div>
+            <div className={styles.CardField}>
+                { [...Array(3)].map((item, index) => <BookCard /> ) }
+            </div>
+            <div className={styles.CardField}>
+                { [...Array(3)].map((item, index) => <BookCard /> ) }
+            </div>
         </div>
     )
 }

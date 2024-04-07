@@ -1,5 +1,8 @@
-.main{
+.app {
+
+}
+
+.CardField{
     display: flex;
-    background: white;
-    height: 1000px;
+    justify-content: space-between;
 }
