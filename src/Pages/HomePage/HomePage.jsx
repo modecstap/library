@@ -1,20 +1,32 @@
 import styles from './HomePage.module.css'
+import TopMenu from "../../Components/TopMenu/TopMenu"
+import Footer from "../../Components/Footer/Footer"
+import LeftMenu from "../../Components/LeftMenu/LeftMenu";
 import BookCard from "../../Components/BookCard/BookCard"
 
 const HomePage = (props) => {
     return(
-        <div className={props.classname}>
-            <div className={styles.CardField}>
-                { [...Array(3)].map((item, index) => <BookCard /> ) }
+        <>
+            <LeftMenu/>
+            <div className={styles.page_body}>
+                <TopMenu/>
+                <div className='content'>
+                    <div className={props.classname}>
+                        <div className={styles.CardField}>
+                            { [...Array(9)].map((item, index) => <BookCard /> ) }
+                        </div>
+                        <div className={styles.opacity_white}>
+                        </div>
+                    </div>
+                </div>
+                <Footer/>
             </div>
-            <div className={styles.CardField}>
-                { [...Array(3)].map((item, index) => <BookCard /> ) }
-            </div>
-            <div className={styles.CardField}>
-                { [...Array(3)].map((item, index) => <BookCard /> ) }
-            </div>
-        </div>
+        </>
     )
 }
+
+
+
+
 
 export default HomePage

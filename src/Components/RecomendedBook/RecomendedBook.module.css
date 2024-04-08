@@ -1,0 +1,27 @@
+.content_blok{
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+}
+
+.image_blok{
+    height: 15em;
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image{
+    height: 70%;
+    transition: 500ms;
+}
+
+.image:hover{
+    height: 80%;
+    box-shadow: 5px 5px 5px black;
+}

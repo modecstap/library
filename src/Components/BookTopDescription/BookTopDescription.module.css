@@ -1,0 +1,27 @@
+.content_blok{
+    height: 30em;
+    width: auto;
+    display: flex;
+    background: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bool_avatar_image {
+    /*4:5*/
+    height: 30em;
+    object-fit: cover;
+}
+
+.book_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 15em;
+    width: 15em;
+
+    background: wheat;
+    border-radius: 5px;
+    padding: 2em;
+}

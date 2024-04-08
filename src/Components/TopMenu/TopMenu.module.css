@@ -1,9 +1,34 @@
+.linc_blok{
+    border: 50px;
+    height: 25px;
+    width: 85px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+.linc_blok:hover{
+    background: rgb(186, 129, 59);
+}
+
+.linc_blok:active{
+    transition: 150ms;
+    background: #8a5322;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
 .top_menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 4em;
-    background: #2c3434;
+    background: rgba(45, 52, 52, 0.8);
     color: white;
 }
 

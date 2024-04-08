@@ -1,8 +1,10 @@
 .box{
     display: flex;
-    background: #C3C49E;
+    background: rgba(45, 52, 52, 0.8);
     height: 40px;
     justify-content: space-between;
+    color: white;
+    padding: 1em;
 }
 
 .adress{
